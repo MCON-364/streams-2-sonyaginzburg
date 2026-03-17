@@ -126,8 +126,6 @@ public class Demo {
                     .entrySet()
                     .stream()
                     .max(Map.Entry.comparingByValue());
-        }
-
     }
 
     /**
