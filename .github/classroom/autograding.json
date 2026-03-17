@@ -1,98 +1,8 @@
 {
   "tests": [
     {
-      "name": "Problem 01 - currentMonthSupplier",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem01_currentMonthSupplier_returnsCurrentMonth test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Problem 02 - longerThanFive",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem02_longerThanFive_worksForShortAndLongStrings test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Problem 03 - positiveAndEven",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem03_positiveAndEven_usesExpectedLogic test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Problem 04 - wordCounter",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem04_wordCounter_countsWordsAndHandlesBlank test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Problem 05 - cleanLabels",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem05_cleanLabels_filtersTrimsAndUppercases test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Problem 06 - sortedCourseNames",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem06_getSortedCourseNames_returnsAlphabeticalNames test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Problem 07 - countScoresAtLeast",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem07_countScoresAtLeast_countsAcrossAllCourses test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Problem 08 - firstLongWord",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem08_firstLongWord_returnsOptionalResult test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Problem 09 - squareAll",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem09_squareAll_returnsSquaredValues test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Problem 10 - averagePassingScore",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem10_averagePassingScore_usesOnlyPassingValues test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Problem 11 - addLearner",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem11_addLearner_addsNewLearnerAndRejectsDuplicate test",
+      "name": "StreamTaskExercises - highPriorityDescriptions",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#highPriorityDescriptions_returnsDescriptionsInEncounterOrder test",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -100,8 +10,8 @@
       "points": 8
     },
     {
-      "name": "Problem 12 - addScore",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem12_addScore_addsOnlyForExistingLearner test",
+      "name": "StreamTaskExercises - countByStatus",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#countByStatus_countsTasksPerStatus test",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -109,8 +19,8 @@
       "points": 8
     },
     {
-      "name": "Problem 13 - averageFor",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem13_averageFor_returnsOptionalAverage test",
+      "name": "StreamTaskExercises - descriptionsByPriority",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#descriptionsByPriority_groupsDescriptionsByPriority test",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -118,8 +28,8 @@
       "points": 8
     },
     {
-      "name": "Problem 14 - letterBandFor",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem14_letterBandFor_mapsAverageToLetter test",
+      "name": "StreamTaskExercises - partitionByDone",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#partitionByDone_splitsTasksIntoTrueAndFalseBuckets test",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -127,13 +37,76 @@
       "points": 8
     },
     {
-      "name": "Problem 15 - undoLastChange",
-      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem15_undoLastChange_revertsMostRecentMutation test",
+      "name": "StreamTaskExercises - countDonePartition",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#countDonePartition_countsDoneAndNotDone test",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
       "points": 8
+    },
+    {
+      "name": "StreamTaskExercises - groupByStatusThenPriority",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#groupByStatusThenPriority_buildsNestedGrouping test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "StreamTaskExercises - sortedDescriptionsByStatus",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#sortedDescriptionsByStatus_groupsAndSortsDescriptionsAlphabetically test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "StreamTaskExercises - doneTaskSummary",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#doneTaskSummary_joinsDoneDescriptionsInEncounterOrder test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "StreamTaskExercises - allTags",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#allTags_flattensTagsInEncounterOrder test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "StreamTaskExercises - distinctDoneAssignees",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#distinctDoneAssignees_returnsDistinctAssigneesForDoneItemsInOrder test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "StreamTaskExercises - idToStatus",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#idToStatus_buildsMapFromIdToStatus test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "StreamTaskExercises - titlesByPriorityUsingMapping",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.streams.exercises.StreamTaskExercisesTest#titlesByPriorityUsingMapping_groupsTitlesByPriority test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 9
     }
   ]
 }
